@@ -1,0 +1,64 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Lorem Ipsum Dolor",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
+      "author": "John Doe"
+    },
+    {
+      "id": "2",
+      "title": "Suspendisse Potenti",
+      "content": "Suspendisse potenti. Integer in justo et justo facilisis ultricies. Proin varius, justo vel dictum tincidunt, elit dolor dignissim elit. Aliquam auctor, lacus nec ultricies cursus, mauris nisi consequat augue...",
+      "author": "Jane Smith"
+    },
+    {
+      "id": "3",
+      "title": "Pellentesque Habitant",
+      "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut consectetur tortor ac libero hendrerit, at dictum sapien cursus. Sed dapibus augue nec augue gravida...",
+      "author": "Mike Johnson"
+    },
+    {
+      "id": "4",
+      "title": "Fusce Rutrum",
+      "content": "Fusce rutrum nisi eu turpis ullamcorper, ut convallis ligula commodo. Aenean eu nisl eget erat fringilla fermentum. Quisque consequat elit in mi luctus, id hendrerit orci euismod...",
+      "author": "Emily White"
+    },
+    {
+      "id": "5",
+      "title": "Vivamus Gravida",
+      "content": "Vivamus gravida augue non efficitur gravida. Curabitur ullamcorper, quam a commodo ullamcorper, purus libero vulputate orci. Integer vehicula arcu in sapien facilisis, a ullamcorper felis eleifend...",
+      "author": "David Brown"
+    },
+    {
+      "id": "6",
+      "title": "Duis Ac Gravida",
+      "content": "Duis ac gravida turpis. Nam non elit eu purus tincidunt ultrices ac id mauris. Nullam vel nisi ut justo cursus suscipit a sit amet mauris. Etiam nec magna ut ante cursus fermentum...",
+      "author": "Jessica Taylor"
+    },
+    {
+      "id": "7",
+      "title": "Aliquam Consequat",
+      "content": "Aliquam consequat est nec justo bibendum, sit amet consequat justo eleifend. Curabitur eu turpis eget ex iaculis dapibus vel ac arcu. Vestibulum rhoncus sapien non massa feugiat...",
+      "author": "Mark Anderson"
+    },
+    {
+      "id": "8",
+      "title": "Integer Posuere",
+      "content": "Integer posuere leo eget odio accumsan, in fermentum felis ultrices. Sed eu ante ut leo bibendum luctus. Ut vel justo vel orci luctus viverra eu in tellus...",
+      "author": "Sophie Clark"
+    },
+    {
+      "id": "9",
+      "title": "Phasellus Aliquet",
+      "content": "Phasellus aliquet massa euismod ligula ultrices, sit amet volutpat arcu rhoncus. Nullam tincidunt purus vel ex volutpat, ut egestas augue cursus. Fusce eu augue eget velit tincidunt aliquet...",
+      "author": "Ryan Miller"
+    },
+    {
+      "id": "10",
+      "title": "Cras Tempus",
+      "content": "Cras tempus turpis a justo congue, vel semper metus ullamcorper. Praesent interdum dolor nec lorem feugiat, nec varius metus cursus. In at luctus dui, vitae congue justo...",
+      "author": "Olivia Turner"
+    }
+  ]
+}
