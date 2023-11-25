@@ -8,10 +8,13 @@ export const useFetch = (url) => {
 
   // useEffect
   useEffect(() => {
+    const abortController = new AbortController();
+
     setTimeout(() => {
       fetch(url)
         .then((res) => {
           if (!res.ok) {
+            console.log("url: ", url);
             throw Error("Could not fetch data! 😟");
           }
           return res.json();
@@ -22,11 +25,17 @@ export const useFetch = (url) => {
           setError(null);
         })
         .catch((err) => {
-          console.log("err: ", err);
-          setIsLoading(false);
-          setError(err.message);
+          if (err.name === "AbortError") {
+            console.log("Fetch Aborted!");
+          } else {
+            console.log("err: ", err);
+            setIsLoading(false);
+            setError(err.message);
+          }
         });
     }, 1000);
+
+    return () => abortController.abort();
   }, [url]);
 
   return { data, isLoading, error };
